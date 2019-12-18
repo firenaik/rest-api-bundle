@@ -36,5 +36,11 @@
       "WizardsTest": "tests/"
     }
   },
-  "target-dir": "Wizards/RestBundle"
+  "target-dir": "Wizards/RestBundle",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:firenaik/rest-api-bundle.git"
+    }
+  ]
 }
